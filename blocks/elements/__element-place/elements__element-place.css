@@ -1,0 +1,7 @@
+.elements__element-place {
+    width: 282px;
+    height: 282px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(../../../img/kirill-pershin-1088404-unsplash.jpg);
+}
