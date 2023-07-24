@@ -1,13 +1,16 @@
 .entrance {
-width: 560px;
-height: 400px;
-position: absolute;
-top: 0;
-left: 30%;
-text-align: center;
-background: white;
-border: 2px solid blue;
-display: none;
+    width: 560px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 30%;
+    text-align: center;
+    background: white;
+    border: 2px solid blue;
+    display: none;
+    width: 430px;
+    height: 330px;
+    border-radius: 10px;
 }
 
 .visible {
