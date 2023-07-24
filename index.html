@@ -20,7 +20,8 @@
                 <h1 class="profile__name">Жак-Ив Кусто</h1>
                 <p class="profile__profession">Исследователь океана</p>
             </div>
-            <img class="profile__button" src="./img/Vector.png">
+            <button class="profile__button"><img src="./img/Vector.png"></button>
+            <!-- <img class="profile__button" src="./img/Vector.png"> -->
             <div>
                 <img class="profile__add-button" src="./img/Add Button.png">
             </div>
@@ -31,7 +32,7 @@
                 <img src="./img/kirill-pershin-1088404-unsplash.jpg" alt="karachaevsk" class="elements__element-place">
                 <div class="elements__element-flex-row">
                     <p class="elements__element-text">Карачаевск</p>
-                    <div class="elements__element-like"></div>
+                    <img class="elements__element-like" src="./img/Vector.svg">
                 </div>
             </div>
 
@@ -39,7 +40,7 @@
                 <img src="./img/Mask Group.png" alt="gora" class="elements__element-place">
                 <div class="elements__element-flex-row">
                     <p class="elements__element-text">Гора Эльбрус</p>
-                    <div class="elements__element-like"></div>
+                    <img class="elements__element-like" src="./img/Vector.svg">
                 </div>
             </div>
 
@@ -47,7 +48,7 @@
                 <img src="./img/kirill-pershin-1556355-unsplash.png" alt="photo" class="elements__element-place">
                 <div class="elements__element-flex-row">
                     <p class="elements__element-text">Домбай</p>
-                    <div class="elements__element-like"></div>
+                    <img class="elements__element-like" src="./img/Vector.svg">
                 </div>
             </div>
 
@@ -55,7 +56,7 @@
                 <img src="./img/Mask Group.png" alt="gora" class="elements__element-place">
                 <div class="elements__element-flex-row">
                     <p class="elements__element-text">Гора Эльбрус</p>
-                    <div class="elements__element-like"></div>
+                    <img class="elements__element-like" src="./img/Vector.svg">
                 </div>
             </div>
 
@@ -63,7 +64,7 @@
                 <img src="./img/kirill-pershin-1556355-unsplash.png" alt="photo" class="elements__element-place">
                 <div class="elements__element-flex-row">
                     <p class="elements__element-text">Домбай</p>
-                    <div class="elements__element-like"></div>
+                    <img class="elements__element-like" src="./img/Vector.svg">
                 </div>
             </div>
 
@@ -71,16 +72,118 @@
                 <img src="./img/kirill-pershin-1088404-unsplash.jpg" alt="photo" class="elements__element-place">
                 <div class="elements__element-flex-row">
                     <p class="elements__element-text">Карачаевск</p>
-                    <div class="elements__element-like"></div>
+                    <img class="elements__element-like" src="./img/Vector.svg">
                 </div>
             </div>
+        </section>
+
+        <section class="entrance">
+            <div class="entrance__info">
+                <h2 class="entrance__title"> Войти на сайт</h2>
+                <p><input class="entrance__log" type='text' placeholder="Логин"></p>
+                <p><input class="entrance__log" type='text' placeholder="Пароль"></p>
+                <button class="entrance__button">Войти</button>
+            </div>
+        </section>
     </main>
+
+    <script type="text/javascript" src="./function.js"></script>
+
+    <script>
+        let profileButton = document.querySelector('.profile__button');
+        let entranceButton = document.querySelector('.enterance__button');
+        let blockEntrance = document.querySelector('.entrance');
+        profileButton.addEventListener('click', function (e) {
+            blockEntrance.classList.toggle('.visible')
+        })
+    </script>
+
+    <script>
+        // Массив
+        // let months = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Авгусь', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']
+        // console.log(months)
+
+
+        // Условия if else
+        // let weather = 5
+        //         if(weather >= 20){
+        //             console.log('Отличная погода, сегодня очень жарко')
+        //         } else if(weather >=8){
+        //             console.log('Холодновато')
+        //         } else {
+        //             console.log('Пришла зима')
+        //         }
+
+
+        // Скидка по времени
+        // let hours = 21
+        // let discont = 0
+        // if (hours >= 18 && hours <= 21) {
+        //     discont = (hours - 16) * 10
+        // }
+        // console.log('После ' + hours + ':00 скидка в магазине ' + discont + '%')
+
+
+        // Объекты
+        // let myObject = {
+        //     stringKey: 'Любое значение - это строка',
+        //     numberKey: Любое число, 1, 3, 4, 7,
+        //     booleanKey: true,
+        //     function: function consoleKitten(){
+
+        //     }
+        // }
+        // let anketaHuman = {
+        //     lastName: 'Mariya',
+        //     firstName: 'Smirnova',
+        //     age: 29,
+        //     isMoscow: true
+        // }
+        // console.log(anketaHuman['firstName'])
+
+
+        // Типы данных
+        // let meaningOfLife = 5;
+        // typeof meaningOfLife;
+
+
+        // Значение null
+        // const element = document.querySelector('.ufs');
+        // if(element === null) {
+        //     console.log('Элемента с таким классом нет на странице')
+        // }
+        
+
+        // typeof - выводит тип данных
+        // console.log(typeof 'my age' + 25 + '3'); //string253
+
+
+        // Поиск элементов в DOM-дереве
+        // let container = document.querySelector('.elements__element');
+        // console.log(container); //Первый элемент
+        // let container = document.querySelectorAll('.elements__element');
+        // console.log(container); //Все элементы
+        // let container = document.querySelector('.elements__element');
+        // console.log(container)[2]; //Обращение к индексу
+
+
+        // while, do while
+        // let number = 20
+        // do {
+        //     console.log(number);
+        //     number = number + 3;
+        // } while (number < 21);
+
+
+
+    </script>
 
     <footer class="footer">
         <p class="footer__country">© 2020 Mesto Russia</p>
     </footer>
 
 </body>
+
 
 
 
