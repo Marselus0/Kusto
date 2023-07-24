@@ -1,6 +1,7 @@
 @import url('../blocks/body/body.css');
 
 @import url('../blocks/entrance/entrance.css');
+@import url('../blocks/entrance/__button/entrance__button.css');
 
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
@@ -23,4 +24,3 @@
 
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__country/footer__country.css');
-@import url('');

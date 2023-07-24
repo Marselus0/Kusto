@@ -1,6 +1,6 @@
 .entrance {
-    width: 560px;
-    height: 400px;
+    width: 430px;
+    height: 330px;
     position: absolute;
     top: 0;
     left: 30%;
@@ -8,8 +8,6 @@
     background: white;
     border: 2px solid blue;
     display: none;
-    width: 430px;
-    height: 330px;
     border-radius: 10px;
 }
 
