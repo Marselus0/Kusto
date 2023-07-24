@@ -14,13 +14,22 @@
     </header>
 
     <main>
+        <section class="entrance">
+            <div class="entrance__info">
+                <h2 class="entrance__title"> Войти на сайт</h2>
+                <p><input class="entrance__log" type='text' placeholder="Логин"></p>
+                <p><input class="entrance__log" type='text' placeholder="Пароль"></p>
+                <button class="entrance__button">Войти</button>
+            </div>
+        </section>
+
         <section class="profile">
             <img class="profile__avatar" src="./img/image.jpg">
             <div class="profile__info">
                 <h1 class="profile__name">Жак-Ив Кусто</h1>
                 <p class="profile__profession">Исследователь океана</p>
             </div>
-            <button class="profile__button"><img src="./img/Vector.png"></button>
+            <button class="profile__button"></button>
             <!-- <img class="profile__button" src="./img/Vector.png"> -->
             <div>
                 <img class="profile__add-button" src="./img/Add Button.png">
@@ -76,18 +85,9 @@
                 </div>
             </div>
         </section>
-
-        <section class="entrance">
-            <div class="entrance__info">
-                <h2 class="entrance__title"> Войти на сайт</h2>
-                <p><input class="entrance__log" type='text' placeholder="Логин"></p>
-                <p><input class="entrance__log" type='text' placeholder="Пароль"></p>
-                <button class="entrance__button">Войти</button>
-            </div>
-        </section>
     </main>
 
-    <script type="text/javascript" src="./function.js"></script>
+    <!-- <script type="text/javascript" src="./function.js"></script> -->
 
     <script>
         let profileButton = document.querySelector('.profile__button');
