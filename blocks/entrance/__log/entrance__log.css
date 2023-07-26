@@ -1,3 +1,8 @@
 .entrance__log {
-    
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    width: 358px;
+    height: 27px;
+    margin: 15px;
 }

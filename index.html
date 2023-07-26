@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
+    <!-- <link href="link rel="preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"> -->
 </head>
 
 <body class="body">
@@ -16,6 +19,7 @@
     <main>
         <section class="entrance">
             <div class="entrance__info">
+                <button class="entrance__close"></button>
                 <h2 class="entrance__title">Редактировать профиль</h2>
                 <p><input class="entrance__log" type='text' placeholder="Жак-Ив Кусто"></p>
                 <p><input class="entrance__log" type='text' placeholder="Исследователь океана"></p>
@@ -90,12 +94,23 @@
     <!-- <script type="text/javascript" src="./function.js"></script> -->
 
     <script>
+        // Открытие, закрытие кнопок
         let profileButton = document.querySelector('.profile__button');
-        let entranceButton = document.querySelector('.enterance__button');
+        let entranceButton = document.querySelector('.entrance__button');
         let blockEntrance = document.querySelector('.entrance');
         profileButton.addEventListener('click', function (e) {
-            blockEntrance.classList.toggle('.visible')
+            blockEntrance.classList.toggle('visible');
         })
+        entranceButton.addEventListener('click', function (e) {
+            blockEntrance.classList.toggle('visible');
+        })
+        let closeButton = document.querySelector('.entrance__close')
+        closeButton.addEventListener('click', function (e) {
+            blockEntrance.classList.toggle('visible');
+        })
+
+        // Анимация кнопок
+    
     </script>
 
     <script>

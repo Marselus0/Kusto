@@ -2,7 +2,10 @@
 
 @import url('../blocks/entrance/entrance.css');
 @import url('../blocks/entrance/__button/entrance__button.css');
-
+@import url('../blocks/entrance/__info/entrance__info.css');
+@import url('../blocks/entrance/__log/entrance__log.css');
+@import url('../blocks/entrance/__title/entrance__title.css');
+@import url('../blocks/entrance/__close/entrance__close.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__line/header__line.css');
@@ -24,3 +27,5 @@
 
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__country/footer__country.css');
+
+@import url('../Inter.zip');

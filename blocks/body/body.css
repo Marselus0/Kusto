@@ -4,4 +4,7 @@
     height: 1217px;
     margin: 0 auto;
     position: relative;
+    font-family: Inter;
+    z-index: 1;
+    overflow: hidden;
 }

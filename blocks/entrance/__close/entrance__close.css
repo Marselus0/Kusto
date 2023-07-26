@@ -1,0 +1,11 @@
+.entrance__close {
+    width: 32px;
+    height: 32px;
+    position: absolute; 
+    left: 100%;
+    bottom: 100%;
+    background-image: url(../../../img/Close\ Icon.png);
+    background-size: cover;
+    border: none;
+    background-color: black;
+}

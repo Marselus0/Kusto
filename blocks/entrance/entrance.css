@@ -2,15 +2,24 @@
     width: 430px;
     height: 330px;
     position: absolute;
-    top: 0;
-    left: 30%;
+    top: 195px;
+    left: 425px;
     text-align: center;
     background: white;
-    border: 2px solid blue;
+    border: 2px solid rgb(0, 0, 0);
     display: none;
     border-radius: 10px;
+    /* opacity: 1;
+    z-index: 1; */
 }
 
 .visible {
     display: block;
+    /* animation: showBlock 1s linear forwards;
+    opacity: 1;
+    position: absolute; */
 }
+
+/* .visible_color {
+    color: blue;
+} */
