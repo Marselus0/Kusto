@@ -3,3 +3,12 @@
     Height: 50px;
     margin-left: 244px;
 }
+
+.profile__add-button:active {
+    /* animation-duration: 5s; */
+    /* animation-timing-function: ease-in-out; */
+    /* animation-iteration-count: infinite;
+    rotate: 50deg;
+    animation-delay: 3s; */
+    opacity: 0;
+}

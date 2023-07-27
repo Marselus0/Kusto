@@ -21,8 +21,8 @@
             <div class="entrance__info">
                 <button class="entrance__close"></button>
                 <h2 class="entrance__title">Редактировать профиль</h2>
-                <p><input class="entrance__log" type='text' placeholder="Жак-Ив Кусто"></p>
-                <p><input class="entrance__log" type='text' placeholder="Исследователь океана"></p>
+                <p><input class="entrance__name" type='text' placeholder="Жак-Ив Кусто"></p>
+                <p><input class="entrance__profession" type='text' placeholder="Исследователь океана"></p>
                 <button class="entrance__button">Сохранить</button>
             </div>
         </section>
@@ -34,7 +34,6 @@
                 <p class="profile__profession">Исследователь океана</p>
             </div>
             <button class="profile__button"><img src="./img/Vector.png"></button>
-            <!-- <img class="profile__button" src="./img/Vector.png"> -->
             <div>
                 <img class="profile__add-button" src="./img/Add Button.png">
             </div>
@@ -98,6 +97,7 @@
         let profileButton = document.querySelector('.profile__button');
         let entranceButton = document.querySelector('.entrance__button');
         let blockEntrance = document.querySelector('.entrance');
+
         profileButton.addEventListener('click', function (e) {
             blockEntrance.classList.toggle('visible');
         })
@@ -109,9 +109,33 @@
             blockEntrance.classList.toggle('visible');
         })
 
-        // Анимация кнопок
-    
+        // Редактирование профиля
+// let inputName = document.querySelector('.entrance__name');
+// let outputName = document.querySelector('.profile__name');
+// let inputProfession = document.querySelector('.entrance__profession');
+// let outputProfession = document.querySelector('.profile__profession');
+
+// entranceButton.addEventListener('click', function(evt){
+//     outputName.textContent = inputName.value;
+// })
+// entranceButton.addEventListener('click', function(evg){
+//     outputProfession.textContent = inputProfession.value;
+// })
+
+// form.onsubmit = function (evt) {
+//     evt.preventDefault();
+//     outputProfession.textContent = inputProfession.value;
+//     outputName.textContent = inputName.value;
+
+// };
+
+// entranceButton.addEventListener('click', function(){
+//     outputName = inputName.value;
+// })
+
     </script>
+
+<script type="text/javascript" src="./profile.js"></script>
 
     <script>
         // Массив

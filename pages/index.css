@@ -3,7 +3,8 @@
 @import url('../blocks/entrance/entrance.css');
 @import url('../blocks/entrance/__button/entrance__button.css');
 @import url('../blocks/entrance/__info/entrance__info.css');
-@import url('../blocks/entrance/__log/entrance__log.css');
+@import url('../blocks/entrance/__name/entrance__name.css');
+@import url('../blocks/entrance/__profession/entrance__profession.css');
 @import url('../blocks/entrance/__title/entrance__title.css');
 @import url('../blocks/entrance/__close/entrance__close.css');
 @import url('../blocks/header/header.css');
