@@ -1,4 +1,15 @@
 .elements__element-like {
-    width: 22px;
-    height: 19px;
+    background-image: url(../../../img/Vector.svg);
+    width: 25px;
+    height: 18px;
+    border: 0;
+    background-color: white;
+}
+
+.elements__element-like:hover {
+    cursor: pointer;
+}
+
+.elements__element-like:active {
+    opacity: 0;
 }
