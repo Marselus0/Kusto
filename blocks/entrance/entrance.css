@@ -16,3 +16,15 @@
     transition: all .8s ease-in-out;
     display: block;
 }
+
+@media screen and (min-width: 798px) and (max-width: 990px) {
+    .visible {
+      
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 798px) {
+    .visible {
+        
+    }
+}
