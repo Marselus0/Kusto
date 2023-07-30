@@ -19,12 +19,14 @@
 
 @media screen and (min-width: 798px) and (max-width: 990px) {
     .visible {
-      
+        left: 0;
+        margin: 50px 270px;
     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 798px) {
     .visible {
-        
+        left: 0;
+        margin: 50px 120px;
     }
 }
