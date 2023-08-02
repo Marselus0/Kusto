@@ -11,7 +11,7 @@
     .elements {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        max-width: 600px;
+        max-width: 680px;
     }
 }
 

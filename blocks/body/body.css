@@ -7,3 +7,9 @@
     font-family: Inter;
     z-index: 1;
 }
+
+@media screen and (min-width: 320px) and (max-width: 680px) {
+    .body {
+        max-width: 680px;
+    }
+}

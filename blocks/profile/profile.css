@@ -9,8 +9,7 @@
 
 @media screen and (min-width: 680px) and (max-width: 990px) {
     .profile {
-        max-width: 990px;
-        margin: 0 auto;
+        max-width: 680px;
     }
 }
 
@@ -20,6 +19,5 @@
         grid-template-columns: 0fr;
         display: grid;
         justify-items: stretch;
-        margin: 0 auto;
     }
 }
